@@ -1,0 +1,568 @@
+.skiplink {
+display:none
+}
+
+body{
+font:80% Arial,Helvetica,sans-serif;
+}
+
+/*#container{
+width:100em;
+margin:auto;
+}*/
+
+h1{
+display:block;
+float:left;
+
+background-color:#ffffff;
+text-align:center;
+}
+
+#lingua{
+height:2em;
+margin-left:5em;
+}
+
+.sceltaLing{
+float:left;
+list-style-type:none;
+background-color:#FFBC00;
+width:10em;
+height:2em;
+list-style-type:none;
+margin-left:0.6em;
+}
+
+#lingua li a{
+display:block;
+text-align:center;
+margin-top:0.5em;
+text-decoration:none;
+color:#ffffff;
+}
+
+
+.sceltaLing:hover{
+border-bottom:2px solid #56621F;
+font-weight:bold;
+}
+
+#linguaCorrente{
+float:left;
+list-style-type:none;
+width:10em;
+height:2em;
+background-color:#56621F;
+}
+
+#linguaCorrente{
+font-weight:bold;
+}
+
+#barraRicerca{
+float:left;
+
+}
+
+#iscrizione,
+#logout{
+float: left;
+
+}
+
+#logout{
+background-color: white;
+color: black;
+border: 2px solid #e7e7e7;
+}
+
+
+
+
+#logoOrientato{
+
+/*background-color:red;*/
+}
+
+
+/*header #superiore{
+width:100em;
+height:35em;
+background-color:#ffffff;
+margin:auto;
+
+}*/
+
+nav #menuOrizzontale{
+width:100em;
+height:6em;
+background-color:#ffffff;;
+margin-left:auto;
+margin-right:auto;
+}
+
+#menu{
+display:block;
+margin-top:2em;
+background-color:#ffffff;
+width:100em;/*????????????????????????????????????????????????????????????*/
+height:6em;
+}
+
+.voceCorrente{
+width:10em;
+height:2.5em;
+float:left;
+font-weight: bold;
+background-color:#56621F;
+margin-left:5em; /*incerta !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+list-style-type:none;
+text-align:center;
+border-radius:15px;
+}
+
+#voceCorrenteSottomenu{
+background-color:#56621F;
+font-weight:bold;
+}
+
+
+nav a{
+  color: white;
+  font-weight:bold;
+}
+
+
+.visibile{
+margin-left:5em;
+width:10em;
+height:2.5em;
+float:left;
+background-color:#FFBC00;
+list-style-type:none;
+text-align:center;
+border-radius:15px;
+}
+
+.visibile a,
+.voceCorrente a{
+display:block;/*serve per abbassare la scritta con il margin-top seguente*/
+margin-top:1em;
+text-decoration:none;
+color:#ffffff;
+font-size:0.8em;
+text-transform:uppercase;
+}
+
+.scomparsa a{
+padding-top:1.4em;/*perché qui non funziona mettere display:block e poi un margin-tp?????????????????????????????????????????????????????????????*/
+font-size:0.7em;
+text-transform:uppercase;
+}
+
+ul.scomparsa{
+display:none;
+position:absolute;
+list-style-type:none;
+margin-left:-3.1em;
+margin-top:0.5em;
+}
+
+.visibile:hover ul.scomparsa{
+display:block;
+}
+
+.voceCorrente:hover ul.scomparsa{
+display:block;
+}
+
+ul.scomparsa li{
+width:10em;
+height:3.5em; /*posso metterla di una dimensione diversa da .visibile e .voceCorrente??????????????????????????? come si accorda con il padding?*/
+background-color:#FFBC00;
+border-radius:15px;
+font-weight:normal;
+}
+
+
+.visibile:hover{
+background-color:#56621F;
+font-weight: bold;
+}
+
+ul.scomparsa li:hover{
+background-color:#56621F;
+font-weight: bold;
+}
+
+.visibile:hover a{
+color:#ffffff;
+}
+
+/*  /////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#corpo{
+margin:auto;
+ /*la pagina responsive:evita che i quadrati si allineino casualmente al ridimensionamento della pagina*/
+}
+
+article.quadrato{
+/*width:22em;
+height:22em;
+float:left;*/
+text-align:center;
+/*border:5px solid #A68937;
+margin-top:10em;
+margin-left:8.5em;*/
+}
+
+/*.quadrato:hover{
+border:5px solid #FFBC00;
+}*/
+
+.quadrato a{
+text-decoration:none;
+color:#000000;
+}
+
+
+#imgQuad1,
+#imgQuad2,
+#imgQuad3,
+#imgQuad4,
+#imgQuad5,
+#imgQuad6,
+#imgQuad7,
+#imgQuad8,
+#imgQuad9{
+display:block;
+margin:auto;
+width: 30%;
+height: auto;
+}
+
+.contQuad{
+margin-top:2em;
+margin-left:1em;
+margin-right:1em;
+}
+
+header{
+}
+
+footer{
+margin-top:5%;
+background-color:#D9D9D9;
+}
+
+footer ul#informazioni{
+float:left;
+list-style-type:none;
+margin-top:1em;
+}
+
+footer ul#social{
+float:left;
+text-align:right;
+list-style-type:none;
+margin-right:0em;
+margin-top:1em;
+}
+
+footer img{
+  width: 10%;
+  height: 10%;
+}
+
+#informazioni li{
+margin-top:0.5em;
+text-align:center;
+}
+
+#social{
+margin-top: 4em;
+height: auto;
+float: left;
+}
+
+img#fb,
+img#twitter{
+width:7%;
+height:7%;
+}
+
+
+/*  ////////////////////////////////////////////////////////////////////*/
+
+
+h2.titoloSez{
+font-size:180%;
+margin-top:2em;
+margin-bottom:2em;
+text-align:center;
+}
+
+h3, h4{
+margin-left:5em;
+}
+
+
+section{
+margin-top:6em;
+margin-bottom:4em;
+}
+
+.intro{
+margin-top:1%;
+margin-bottom:1%;
+}
+
+.descrizione{
+margin-left:8em;
+margin-right:8em;
+}
+
+.tab, .list{
+margin-left:12em;
+}
+
+.tab{
+border-spacing:6em 4em;
+}
+
+list{
+list-style-type:circle;
+}
+
+hr{
+border-color:#FFBC00 !important;
+}
+
+/*  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+fieldset{
+margin-bottom:3em;
+}
+
+input[type=text]{
+border:1px solid #FFBC00;
+}
+
+textarea{
+border:1px solid #FFBC00;
+}
+
+/*  /////////////////////////////////////////////////////////////////////filo e sc edu/////////////////////*/
+
+
+a.opzioniFac{
+text-transform:uppercase;
+text-decoration:none;
+color: #000000;
+}
+
+a.opzioniFac:hover{
+color:blue;
+}
+
+.opzioni{
+margin-top:2em;
+margin-left:8em;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////perchè unito////////////////////////*/
+
+
+article.quadSez {
+/*width:28em;
+height:18em;
+float:left;
+text-align:left;*/
+border:5px solid #A68937;
+/*margin-left:12em;
+margin-top:4em;*/
+}
+
+img.imgSez{
+width:25%;
+height:auto;
+float:left;
+margin-left:1em;
+margin-top:1em;
+}
+
+p.contSez {
+margin-top:2em;
+margin-left:12em;/*??????????????????????????????????????????????????????????????????????????????????????????????*/
+margin-right:1em;
+}
+
+h3.titoloQuad{
+margin-left:4em;
+}
+
+/*///////////////////////////////////////////////////////filo//////////////////////////////////////////////////////////////*/
+
+
+ul.listaDescrizione{
+list-style-type:none;
+margin-left:5em;
+}
+
+#philo{
+width:15%;
+height:15%;
+
+}
+
+a.homeFac{
+text-decoration:none;
+}
+
+/*////////////////////////////////////////////7segreteria////////////////////////////////////////////////////////*/
+
+h3.centrato{
+text-align:center;
+
+}
+
+#direzioneGen{
+width:100em;
+height:40em;
+}
+
+#direzioneGen h3{
+margin-top:3em;
+}
+
+section.sezioni{
+float:left;
+}
+
+#mappa{
+width:100%;
+height:auto;
+border:1%;
+}
+
+#listDelegati{
+list-style-type:none;
+text-align:center;
+
+}
+
+#listDelegati li{
+margin-bottom:2em;
+}
+
+#sezOrientamento{
+text-align:center;
+
+}
+
+#poliUni{
+margin-top:2%;
+border-spacing:1% 3em;/*spazio fra celle*/
+}
+
+#poliUni caption{
+margin-bottom:1%;
+font-weight:bold;
+font-size:110%;
+}
+
+#poliUni th{
+visibility:hidden;
+}
+
+td.nomePolo,
+td.informazioniPolo{
+text-align:center;
+}
+
+
+#briciole_pane a{
+text-decoration:none;
+color:#000000;
+}
+
+#briciole_pane a:hover{
+color:blue;
+}
+
+#briciole_pane{
+}
+
+#videoOr{
+width:22em;
+height:12em;
+margin-left:2.3em;
+}
+
+.accesskey,
+#sitemap{
+margin-bottom:4em;
+font-size:120%;
+}
+
+.accesskey h3{
+margin-bottom:4em;
+}
+
+.accesskey ul,
+#sitemap ul{
+margin-left:8em;
+margin-bottom:3em;
+list-style-type:none;
+}
+
+.accesskey li,
+#sitemap li{
+margin-bottom:1em;
+}
+
+.codAccess{
+margin-right:3em;
+}
+
+#slide {
+margin-top: 2em;
+width: 80%;
+margin-left: 10%;
+
+}
+
+#frecciasx {
+height: 3em;
+margin: auto;
+
+}
+
+#frecciadx {
+height: 3em;
+float:right;
+margin: auto;
+}
+
+#galleria {
+width:100%;
+}
+
+#frecce {
+padding-top: 1em;
+width:10%;
+margin: 0 auto;
+}
+
+#share{
+
+}
+
+.interattivo{
+margin-bottom: 1em;
+}
+
+.scelta{
+margin-top: 1em;
+}

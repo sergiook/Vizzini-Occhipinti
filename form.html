@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="mystyle2.3.css" />
+    <link rel="home" title="Home" href="index2.html">
+    <link rel="prev" title="Ricerca per professione" href="#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Rosaria Vizzini, Sergio Occhipinti">
+    <meta name="description" content="Sito di orientamento universitario">
+    <meta name="keywords" content="unito, Torino, Politecnico, orientamento universitario, università">
+    <script type="text/javascript" src="social.js"></script>
+    <script type="text/javascript" src="ricerca.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+    <title>orientaTO - Domande</title>
+    <style type="text/css">
+      .interattivo{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <a href="#startcontent" accesskey="2" tabindex="2" class="skiplink" title="vai al contenuto">Skipover navigation</a> <!--per far saltare lettura barra nav-->
+      <header id="superiore">
+        <div>
+          <ul id="lingua">
+            <li id="linguaCorrente"><a href="#" accesskey="t">Italiano</a></li>
+            <li class="sceltaLing"><a href="#" accesskey="e">Inglese</a></li>
+            <li class="sceltaLing"><a href="#" accesskey="f">Francese</a></li>
+          </ul>
+        </div>
+        <div id="barraRicerca">
+          <form onsubmit="ricerca()" action="javascript:void(0)"> <!--non ricarica pagina-->
+            <label for="cerca">Cerca...</label>
+            <input type="search" id="cerca" name="cerca" size="20" accesskey="3" tabindex="3">
+            <input type="submit" value="Cerca">
+          </form>
+        </div>
+        <h1>orientaTO</h1>
+        <div id="logoOrientato">
+          <img id="logo" src="sky.jpg" alt="logo skyline Torino" />
+        </div>
+        <nav id="menuOrizzontale">
+          <ul id="menu">
+            <!--lista del menu principale-->
+            <li class="voceCorrente"><a href="index2.html" title="Pagina principale" accesskey="1" tabindex="1">Home</a></li>
+            <li class="visibile">
+              <a href="" title="pagina dei dipartimenti di studi umanistici" accesskey="4" tabindex="4">Studi Umanistici</a>
+              <ul class="scomparsa">
+                <!--lista annidata del sottomenu a tendina-->
+                <li><a href="filosofia_scienzedelleducazione.html">Filosofia e Scienze dell'Educazione</a></li>
+                <li><a href="#">Lingue e letteratura straniere</a></li>
+                <li><a href="#">Psicologia</a></li>
+                <li><a href="#">Studi Storici</a></li>
+                <li><a href="#">Studi Umanistici</a></li>
+              </ul>
+            </li>
+            <li class="visibile">
+              <a href="#" title="pagina dei dipartimenti che si occupano di diritto e società" accesskey="5" tabindex="5">Diritto e Societ&agrave;</a>
+              <ul class="scomparsa">
+                <!--lista annidata del sottomenu a tendina-->
+                <li><a href="#">Economia e Statistica</a></li>
+                <li><a href="#">Cultura, Politica e Societ&agrave;</a></li>
+                <li><a href="#">Giurisprudenza</a></li>
+                <li><a href="#">Geografia e Scienze Territoriali</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Scienze Economiche e Sociali</a></li>
+                <li><a href="#">Matematica e Statistica</a></li>
+              </ul>
+            </li>
+            <li class="visibile">
+              <a href="#" title="pagina dei dipartimenti di studi sanitari" accesskey="6" tabindex="6">Sanitaria</a>
+              <ul class="scomparsa">
+                <!--lista annidata del sottomenu a tendina-->
+                <li><a href="#">Neuroscienze</a></li>
+                <li><a href="#">Oncologia</a></li>
+                <li><a href="#">Scienze e Tecniche del Farmaco</a></li>
+                <li><a href="#">Scienze Chirurgiche</a></li>
+                <li><a href="#">Scienze della Sanit&agrave; Pubblica e pediatrica</a></li>
+                <li><a href="#">Scienze Mediche</a></li>
+                <li><a href="#">Scienze Veterinarie</a></li>
+              </ul>
+            </li>
+            <li class="visibile">
+              <a href="#" title="pagina dei dipartimenti dell'area scientifica" accesskey="7" tabindex="7">Area Scientifica</a>
+              <ul class="scomparsa">
+                <!--lista annidata del sottomenu a tendina-->
+                <li><a href="#">Biotecnologie</a></li>
+                <li><a href="#">Scienze Cliniche e Biologiche</a></li>
+                <li><a href="#">Chimica</a></li>
+                <li><a href="#">Fisica</a></li>
+                <li><a href="#">Matematica</a></li>
+                <li><a href="#">Informatica</a></li>
+                <li><a href="#">Scienze della Terra</a></li>
+                <li><a href="#">Scienze della Vita</a></li>
+              </ul>
+            </li>
+            <li class="visibile">
+              <a href="#" title="pagina degli altri istituti torinesi" accesskey="8" tabindex="8">Altre Scuole</a>
+              <ul class="scomparsa">
+                <!--lista annidata del sottomenu a tendina-->
+                <li><a href="#">Politecnico</a></li>
+                <li><a href="#">Universit&agrave; di Studi Gastronomici</a></li>
+                <li><a href="#">IED, IAAD</a></li>
+                <li><a href="#">Alta Formazione Artistica, Musicale e Coreutica</a></li>
+                <li><a href="#">Scuole Specilistiche</a></li>
+                <li><a href="#">ESCP Europe</a></li>
+                <li><a href="#">IUSTO Rebaudengo</a></li>
+                <li><a href="#">ITS</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!--fine nav menuOrizzontale-->
+      </header>
+      <!--fine header #superiore-->
+      <a name="startcontent" id="startcontent"></a>
+      <div id="corpo">
+        <div id="briciole_pane">
+          <a href="index2.html">Home</a>&nbsp;&nbsp; > &nbsp;&nbsp; <a href="form.html">Domande</a>
+        </div>
+        <header class="premessa">
+          <h2 class="titoloSez">Richiesta Informazioni</h2>
+          <p class="descrizione">Nel sito non hai trovato l'informazione che cercavi? o vuoi porci una domanda specifica,
+            segnalarci delle imperfezioni o errori, o semplicemente darci il tuo contributo? Compila il form che troverai in basso, in cambio
+            ti chiediamo di darci alcune brevi informazioni su di te per migliorare la qualit&agrave; del sito
+          </p>
+          <br>
+        </header>
+        <hr />
+        <h2>Scrivici</h2>
+        <form onsubmit="controllo()" action="javascript:void(0)" method="post">
+          <fieldset>
+            <legend>Dati Generali</legend>
+            <br>
+            <label for="nome">Nome*:</label><br>
+            <input type="text" id="nome" size="20"><br>
+            <label for="cognome">Cognome*:</label><br>
+            <input type="text" id="cognome" size="20"><br>
+            <label for="email">E-mail*:</label><br>
+            <input type="text" id="email" size="20"><br>
+            <label for="nascita">Data di nascita:</label><br>
+            <input type="text" id="nascita" size="20"><br>
+            <label for="luogo">Luogo di nascita:</label><br>
+            <input type="text" id="luogo" size="20"><br><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Chi sei?</legend>
+            <br>
+            Da dove vieni?<br>
+            <label class="scelta" for="Torino">Torino o provincia</label>
+            <input class="scelta" type="radio" name="provenienza" id="Torino" value="Torino" onclick="check('Torino','radio')"><br>
+              <div id="radio" class="interattivo">
+                <label for="citta_uno">Indica il nome della tua città:</label>
+                <input type="text" id="citta_uno" size="20"><br>
+              </div>
+            <label class="scelta" for="Piemonte"> Piemonte</label>
+            <input class="scelta" type="radio" name="provenienza" id="Piemonte" value="Piemonte" onclick="check('Piemonte','radio_due')"><br>
+              <div id="radio_due" class="interattivo">
+                <label for="citta_due">Indica il nome della tua città:</label>
+                <input type="text" id="citta_due" size="20"><br>
+              </div>
+            <label class="scelta" for="Italia">Sono italiano ma non vivo nella regione Piemonte</label>
+            <input class="scelta" type="radio" name="provenienza" id="Italia" value="ita" onclick="check('Italia','radio_tre')"><br>
+              <div id="radio_tre" class="interattivo">
+                <label for="citta_tre">Indica il nome della tua città:</label>
+                <input type="text" id="citta_tre" size="20"><br>
+              </div>
+            <label class="scelta" for="estero">Non sono italiano</label>
+            <input class="scelta" type="radio" name="provenienza" id="estero" value="estero" onclick="check('estero','radio_quattro')">
+              <div id="radio_quattro" class="interattivo">
+                <label for="citta_quattro">Indica il nome della tua città:</label>
+                <input type="text" id="citta_quattro" size="20"><br>
+              </div>
+            <br><br><br>
+            Sei uno studente?<br>
+            <label for="si">Si</label>
+            <input type="radio" name="studente" id="si" value="si"><br>
+            <label for="no">No, non sono ancora iscritto</label>
+            <input type="radio" name="studente" id="no" value="no"><br><br><br>
+            Perch&eacute; hai visitato questa pagina?<br>
+            <label for="errore">Ci sono finito per errore</label>
+            <input type="checkbox" name="visita" id="errore" value="errore"><br>
+            <label for="infofac">cercavo informazione sulle facolt&agrave; Torino</label>
+            <input type="checkbox" name="visita" id="infofac" value="infofac" checked><br>
+            <label for="infounito">cercavo informazione su Unito</label>
+            <input type="checkbox" name="visita" id="infounito" value="infounito"><br>
+            <label for="infopoli">cercavo informazione sul Politecnico</label>
+            <input type="checkbox" name="visita" id="infopoli" value="infopoli"><br>
+            <label for="cambiofac">cercavo informazione su come cambiare facolt&agrave;</label>
+            <input type="checkbox" name="visita" id="cambiofac" value="cambiofac"><br>
+            <label for="infoiscriz">cercavo informazione su come iscrivermi</label>
+            <input type="checkbox" name="visita" id="infoiscriz" value="infoiscriz"><br>
+            <label for="infointernaz">cercavo informazione per studenti internazionali</label>
+            <input type="checkbox" name="visita" id="infointernaz" value="infointernaz"><br><br><br>
+            Hai trovato utili le informazioni che hai trovato nel sito?<br>
+            <label for="nessuna">No</label>
+            <input type="radio" name="utilitàinfo" id="nessuna" value="no"><br>
+            <label for="sì">Si</label>
+            <input type="radio" name="utilitàinfo" id="sì" value="si"><br><br><br>
+            Se sì, ci hai impiegato molto tempo a trovare l'informazione che cercavi?<br>
+            <label for="poco">No, meno di 2 minuti</label>
+            <input type="radio" name="tempo" id="poco" value="poco"><br>
+            <label for="abbastanza">Circa più di 2 minuti, ma l'ho trovata</label>
+            <input type="radio" name="tempo" id="abbastanza" value="abbastanza"><br>
+            <label for="molto">Ci ho impiegato molto tempo</label>
+            <input type="radio" name="tempo" id="molto" value="molto"><br><br><br>
+            Cosa ti ha attirato del nostro sito?<br>
+            <label for="grafica">la grafica ed i colori</label>
+            <input type="checkbox" name="attirare" id="grafica" value="grafica"><br>
+            <label for="disposizione">la disposizione degli argomenti</label>
+            <input type="checkbox" name="attirare" id="disposizione" value="grafica" checked><br>
+            <label for="ricerca">i motori di ricerca</label>
+            <input type="checkbox" name="attirare" id="ricerca" value="grafica"><br>
+            <label for="facile">la sua essenzialit&agrave;, che rende l'informazione più facilmente reperibile</label>
+            <input type="checkbox" name="attirare" id="facile" value="grafica"><br>
+            <label for="trattazione">il modo con cui sono disposti e trattati gli argomenti</label>
+            <input type="checkbox" name="attirare" id="trattazione" value="grafica"><br><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Messaggio</legend>
+            <br>
+            <label for="richiesta">Richiesta relativa a:</label>
+            <select id="richiesta" size="4" multiple>
+              <option value="segreteria" selected>Segreteria</option>
+              <option value="costi">Costi e tasse</option>
+              <option value="borse di studio">Borse di studio e riduzione tasse</option>
+              <option value="immatricolazione">Immatricolazione e documenti d'iscrizione</option>
+              <option value="scambio">Progetti di scambio proprosti dalle universit&agrave; di Torino</option>
+              <option value="studenteinternaz">Informazioni per studenti internazionali</option>
+              <option value="segnalazioni">Segnalazioni</option>
+            </select>
+            <br><br><br>
+            <label for="messaggio">Messaggio:</label><br><br>
+            <textarea id="messaggio" cols="40" rows="10" accesskey="9" tabindex="9" onfocus="this.innerHTML=''" onblur="this.innerHTML='Scrivi il tuo messaggio'">Scrivi il tuo messaggio</textarea><br><br>
+            <input type="submit" value="Invia"><br><br><br>
+          </fieldset>
+        </form>
+      </div>
+      <!--fine div corpo-->
+      <footer>
+        <ul id="informazioni">
+          <li>Rosaria Vizzini&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sergio Occhipinti</li>
+          <li><a href="mailto:rosaria.vizzini@gmail.com">rosaria.vizzini@gmail.com</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:sergio.occhipinti@unito.it">sergio.occhipinti@unito.it</a></li>
+          <li><a href="sitemap.html" title="mappa del sito" accesskey="9" tabindex="9">Mappa del sito</a></li>
+          <li><a href="dichiarazione_di_accessibilita.html" title="dichiarazione di accessibilità" accesskey="0">Dichiarazione di Accessibilit&agrave;</a></li>
+        </ul>
+        <div id="social">
+          <div id="share"><p>Condividi</p></div>
+          <a onclick="facebook()" href="#"><img src="fb2.png" id="fb" alt="logo facebook" onmouseover="this.src='fb.png'" onmouseout="this.src='fb2.png'" /></a>
+          <a onclick="twitter()" href="#"><img src="twitter2.png" id="twitter" alt="logo twitter" onmouseover="this.src='twitter.png'" onmouseout="this.src='twitter2.png'" /></a>
+        </div>
+        <a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+        <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance,
+          W3C WAI Web Content Accessibility Guidelines 2.0"></a>
+      </footer>
+    </div>
+    <!--fine div container-->
+
+  </body>
+</html>
